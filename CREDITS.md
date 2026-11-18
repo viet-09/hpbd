@@ -7,8 +7,6 @@ All photos in `images/` are from Wikimedia Commons, resized and converted to Web
 | hero.webp | [Castle at Tokyo Disneyland.jpg](https://commons.wikimedia.org/wiki/File:Castle_at_Tokyo_Disneyland.jpg) | Spark0621 | CC BY-SA 3.0 |
 | breakfast.webp | [Onigiri Bought at a Convenience Store.jpg](https://commons.wikimedia.org/wiki/File:Onigiri_Bought_at_a_Convenience_Store.jpg) | Amagase | CC BY-SA 2.5 |
 | kasai.webp | [Tokyo Metro Kasai sta 002.jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Metro_Kasai_sta_002.jpg) | 東京特許許可局 | CC BY-SA 3.0 |
-| keiyo.webp | [Keiyo-Line-SeriesE233-209.jpg](https://commons.wikimedia.org/wiki/File:Keiyo-Line-SeriesE233-209.jpg) | MaedaAkihiko | CC BY-SA 4.0 |
-| maihama.webp | [JRE Maihama-STA South-Gate.jpg](https://commons.wikimedia.org/wiki/File:JRE_Maihama-STA_South-Gate.jpg) | MaedaAkihiko | CC BY-SA 4.0 |
 | queue.webp | [Tokyo Disneyland Main Entrance (53440858382).jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Main_Entrance_(53440858382).jpg) | Dick Thomas Johnson | CC BY 2.0 |
 | gate.webp | [Tokyo Disneyland Main Entrance (June 2025).jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Main_Entrance_(June_2025).jpg) | Fred Cherrygarden | CC BY-SA 4.0 |
 | beauty.webp | [Tokyo Disneyland Enchanted Tale of Beauty and the Beast (53441804726).jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_Enchanted_Tale_of_Beauty_and_the_Beast_(53441804726).jpg) | Dick Thomas Johnson | CC BY 2.0 |
@@ -27,4 +25,4 @@ All photos in `images/` are from Wikimedia Commons, resized and converted to Web
 | smallworld.webp | [Tokyo Disneyland It's a Small World (53440898047).jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_It%27s_a_Small_World_(53440898047).jpg) | Dick Thomas Johnson | CC BY 2.0 |
 | fireworks.webp | [Tokyo Disneylands cinderella castle.jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Disneylands_cinderella_castle.jpg) | ELLusKa 86 | Public domain |
 | shopping.webp | [Tokyo Disneyland 002.jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_002.jpg) | Emran Kassim | CC BY 2.0 |
-| home.webp | [JREast-Maihama-station-platform.jpg](https://commons.wikimedia.org/wiki/File:JREast-Maihama-station-platform.jpg) | LERK | CC BY 3.0 |
+| exit.webp | [Tokyo Disneyland World Bazaar (53441847836).jpg](https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_World_Bazaar_(53441847836).jpg) | Dick Thomas Johnson | CC BY 2.0 |

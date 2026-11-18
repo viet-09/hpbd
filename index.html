@@ -210,12 +210,10 @@ const PREP = { title: "Chuẩn bị tối nay", range: "Tối 18/11", intro: "Xo
 ]};
 
 const PLAN = [
-  { title: "Từ Kasai tới cổng park", range: "06:15 – 09:00", intro: "Xe buýt tới Kasai Rinkai Koen, rồi JR Keiyo Line đúng 1 ga là tới Maihama.", items: [
+  { title: "Từ Kasai tới cổng park", range: "06:15 – 09:00", intro: "Bus SS08 đi thẳng từ ga Kasai tới Tokyo Disneyland, không phải đổi tàu.", items: [
     { t: "06:15", img: "breakfast", alt: "Onigiri mua ở combini", title: "Dậy và ăn sáng nhẹ", desc: "Onigiri hoặc bánh mì ở nhà / combini, ăn trước khi đi để không phí giờ vàng buổi sáng." },
-    { t: "07:00", img: "kasai", alt: "Ga Kasai", title: "Xe buýt 葛西駅 → 葛西臨海公園駅", desc: "Bến ngay trước ga Kasai, khoảng 20 phút.", where: "Ga Kasai" },
-    { t: "07:25", img: "keiyo", alt: "Tàu JR Keiyo Line", title: "JR Keiyo Line hướng 蘇我 (Soga), 1 ga", desc: "Khoảng 3 phút tới Maihama. Lên tàu hướng Soga, hướng Tokyo là đi ngược.", where: "Kasai Rinkai Koen" },
-    { t: "07:35", img: "maihama", alt: "Cửa soát vé phía Nam ga Maihama", title: "Ga Maihama (舞浜駅), cửa Nam", desc: "Đi bộ ~5 phút theo biển chỉ dẫn tới cổng Tokyo Disneyland." },
-    { t: "07:45", img: "queue", alt: "Hàng người chờ trước cổng Tokyo Disneyland", title: "Xếp hàng trước cổng", desc: "Park mở 09:00. Mở sẵn mã vé, xem giờ chờ dự kiến trong app.", where: "Cổng chính" },
+    { t: "07:15", img: "kasai", alt: "Ga Kasai", title: "Bus SS08 葛西駅前 → Tokyo Disneyland", desc: "Có mặt ở bến số 10 trước ga Kasai lúc 07:05. Xe 京成バス \"シャトル☆セブン\" SS08, bảng ghi 東京ディズニーシー・バスターミナル・ノース行. Đi thẳng ~21 phút, ¥330, quẹt Suica/PASMO. Lỡ chuyến thì đi SS07 lúc 07:30 cùng bến.", where: "Ga Kasai · bến 10", hot: true },
+    { t: "07:40", img: "queue", alt: "Hàng người chờ trước cổng Tokyo Disneyland", title: "Xuống bus, xếp hàng trước cổng", desc: "Xuống ở Tokyo Disneyland Bus Terminal lúc ~07:36, đi bộ vài phút tới cổng. Park mở 09:00. Mở sẵn mã vé, xem giờ chờ dự kiến trong app.", where: "Cổng chính" },
   ]},
   { title: "Buổi sáng · phía Đông", range: "09:00 – 11:50", intro: "Chơi ngay các trò hot nhất khi hàng còn ngắn. Fantasyland và Tomorrowland nằm sát nhau.", items: [
     { t: "09:00", img: "gate", alt: "Cổng vào Tokyo Disneyland", title: "Vào cổng: xin sticker sinh nhật + Entry Request", desc: "Lúc soát vé nói 「バースデーシールください」, viết tên アインちゃん rồi dán lên ngực. Sau đó gửi Entry Request show Mickey suất 13:40 trong app.", where: "Cổng · app", hot: true },
@@ -235,13 +233,13 @@ const PLAN = [
     { t: "16:15", img: "haunted", alt: "Haunted Mansion Holiday Nightmare", title: "Haunted Mansion \"Holiday Nightmare\"", desc: "Bản Nightmare Before Christmas chỉ có mùa này. Trời vừa tối là đẹp nhất.", where: "Fantasyland", hot: true },
     { t: "17:05", img: "pirates", alt: "Pirates of the Caribbean trang trí Giáng sinh", title: "Pirates of the Caribbean", desc: "Hàng đi nhanh. Lúc xếp thì đặt Mobile Order bữa tối. Jungle Cruise ngay cạnh nếu chờ dưới 20 phút.", where: "Adventureland" },
   ]},
-  { title: "Tối · đèn & pháo hoa sinh nhật", range: "17:40 – 21:10", intro: "Ngồi một chỗ ở Plaza xem cả parade lẫn pháo hoa.", items: [
+  { title: "Tối · đèn & pháo hoa sinh nhật", range: "17:40 – 22:10", intro: "Ngồi một chỗ ở Plaza xem cả parade lẫn pháo hoa.", items: [
     { t: "17:40", img: "ramen", alt: "Bát mì ramen nóng", title: "Ăn tối China Voyager", desc: "Mì ramen nóng hợp trời lạnh tháng 11.", where: "Adventureland" },
     { t: "19:00", img: "electrical", alt: "Electrical Parade Dreamlights", title: "Electrical Parade Dreamlights", desc: "Giữ chỗ ở Plaza từ 18:25. Bản Giáng sinh, chụp ảnh アインちゃん giữa biển đèn.", where: "Plaza", hot: true },
     { t: "19:50", img: "smallworld", alt: "it's a small world", title: "it's a small world", desc: "Gần lâu đài, tối hàng ngắn, ngồi thuyền nghỉ chân. Quay lại Plaza trước 20:20.", where: "Fantasyland" },
     { t: "20:30", img: "fireworks", alt: "Lâu đài Cinderella về đêm", title: "Pháo hoa Starbright Christmas", desc: "Khoảng 5 phút trước lâu đài. Như thổi nến sinh nhật: ước một điều thật đẹp nhé.", where: "Trước lâu đài", hot: true },
-    { t: "20:40", img: "shopping", alt: "World Bazaar mùa Giáng sinh", title: "Mua quà ở World Bazaar", desc: "Ngay trên đường ra cổng, mua cuối ngày để khỏi xách cả buổi.", where: "World Bazaar" },
-    { t: "21:10", img: "home", alt: "Sân ga Maihama", title: "Về Kasai", desc: "JR hướng 東京 1 ga tới Kasai Rinkai Koen, rồi xe buýt về ga Kasai, tới khoảng 22:05. Xem giờ chuyến buýt cuối trước khi rời park.", where: "Maihama → Kasai" },
+    { t: "20:40", img: "shopping", alt: "World Bazaar mùa Giáng sinh", title: "Mua quà ở World Bazaar", desc: "Ngay trên đường ra cổng, mua cuối ngày để khỏi xách cả buổi. Thong thả tới ~21:25 rồi ra bến bus.", where: "World Bazaar" },
+    { t: "21:45", img: "exit", alt: "Cổng World Bazaar về đêm", title: "Bus SS08 về ga Kasai", desc: "Ra Tokyo Disneyland Bus Terminal trước 21:35. SS08 (亀有駅行) chạy 21:45, tới 葛西駅前 khoảng 22:08, ¥330. Nếu ra sớm thì đi SS07 lúc 21:22 cũng dừng ở ga Kasai. Giờ tan park bus đông, xếp hàng sớm một chút.", where: "Bus Terminal → Kasai", hot: true },
   ]},
 ];
 
@@ -249,8 +247,6 @@ const CREDITS = [
   ["hero", "Castle at Tokyo Disneyland.jpg", "Spark0621", "CC BY-SA 3.0"],
   ["breakfast", "Onigiri Bought at a Convenience Store.jpg", "Amagase", "CC BY-SA 2.5"],
   ["kasai", "Tokyo Metro Kasai sta 002.jpg", "東京特許許可局", "CC BY-SA 3.0"],
-  ["keiyo", "Keiyo-Line-SeriesE233-209.jpg", "MaedaAkihiko", "CC BY-SA 4.0"],
-  ["maihama", "JRE Maihama-STA South-Gate.jpg", "MaedaAkihiko", "CC BY-SA 4.0"],
   ["queue", "Tokyo Disneyland Main Entrance (53440858382).jpg", "Dick Thomas Johnson", "CC BY 2.0"],
   ["gate", "Tokyo Disneyland Main Entrance (June 2025).jpg", "Fred Cherrygarden", "CC BY-SA 4.0"],
   ["beauty", "Tokyo Disneyland Enchanted Tale of Beauty and the Beast (53441804726).jpg", "Dick Thomas Johnson", "CC BY 2.0"],
@@ -269,7 +265,7 @@ const CREDITS = [
   ["smallworld", "Tokyo Disneyland It's a Small World (53440898047).jpg", "Dick Thomas Johnson", "CC BY 2.0"],
   ["fireworks", "Tokyo Disneylands cinderella castle.jpg", "ELLusKa 86", "Public domain"],
   ["shopping", "Tokyo Disneyland 002.jpg", "Emran Kassim", "CC BY 2.0"],
-  ["home", "JREast-Maihama-station-platform.jpg", "LERK", "CC BY 3.0"],
+  ["exit", "Tokyo Disneyland World Bazaar (53441847836).jpg", "Dick Thomas Johnson", "CC BY 2.0"],
 ];
 
 const KEY = "ain-bday-2026-checks";
